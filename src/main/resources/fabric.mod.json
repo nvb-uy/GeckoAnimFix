@@ -1,0 +1,25 @@
+{
+    "schemaVersion": 1,
+    "id": "${mod_id}",
+    "version": "${mod_version}",
+    "name": "${mod_name}",
+    "description": "Fixes GeckoLib animations not playing while using shaderpacks that add entity shadows",
+    "authors": [
+        "ElocinDev"
+    ],
+    "license": "MIT",
+    "environment": "client",
+    "entrypoints": {
+        "main": [
+            "elocindev.geckoanimfix.CommonInitializer"            
+        ]
+    },
+    "mixins": [
+        "${mod_id}.fabric.mixins.json"
+    ],
+    "depends": {
+        "fabric": "*",
+        "fabricloader": ">=0.14.9",
+        "java": ">=16"
+    }
+}

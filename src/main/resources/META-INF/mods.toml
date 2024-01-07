@@ -1,0 +1,19 @@
+modLoader="javafml"
+loaderVersion="*"
+license='MIT'
+
+[[mods]]
+modId="${mod_id}"
+version="${mod_version}"
+displayName="${mod_name}"
+authors="ElocinDev"
+description='''
+Fixes GeckoLib animations not playing while using shaderpacks that add entity shadows
+'''
+
+[[dependencies.${mod_id}]]
+modId="forge"
+mandatory=true
+versionRange="*"
+ordering="NONE"
+side="BOTH"
